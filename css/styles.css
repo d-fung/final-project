@@ -1,0 +1,39 @@
+.df-navbar {
+	padding-top: 100px;
+	text-align: right;
+}
+
+.navbar-nav {
+	padding-top: 100px;
+	float: right;
+}
+
+.navbar-collapse {
+	padding-bottom: 25px;
+}
+
+.navbar-brand {
+	padding-top: 100px;
+}
+
+.navbar-default {
+	background-image: none;
+	background-color: #ffffff;
+	border-color: #ffffff;
+	box-shadow: none;
+}
+
+.introduction {
+	padding-top: 200px;
+}
+
+.carousel {
+	height: 500px;
+	width: 100%;
+  	overflow: hidden;
+  	position: relative;
+}
+
+.about-section {
+	padding-top: 200px;
+}
