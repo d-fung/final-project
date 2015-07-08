@@ -1,10 +1,29 @@
-.df-navbar {
-	padding-top: 100px;
-	text-align: right;
+body {
+	font-family: 'PT Serif', serif;
+	font-size: 10pt;
+	line-height: 1.6em;
+}
+
+.title-text {
+	font-family: Dosis, sans-serif;
+	font-weight: 200;
+	font-size: 20pt;
+	letter-spacing: 0.5em;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.services-text {
+	font-family: Dosis, sans-serif;
+	font-weight: 200;
+	font-size: 13pt;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
 }
 
 .navbar-nav {
-	padding-top: 100px;
+	padding-top: 50px;
 	float: right;
 }
 
@@ -13,7 +32,7 @@
 }
 
 .navbar-brand {
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .navbar-default {
@@ -23,8 +42,29 @@
 	box-shadow: none;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+	background-image: none;
+	-webkit-box-shadow: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #fef561;
+	text-decoration: underline;
+}
+
+.nav-text {
+	font-family: Dosis, sans-serif;
+	font-size: 10pt;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
 .introduction {
-	padding-top: 200px;
+	padding-top: 50px;
+}
+
+.intro-section {
+	padding-top: 50px;
 }
 
 .carousel {
@@ -34,6 +74,25 @@
   	position: relative;
 }
 
-.about-section {
-	padding-top: 200px;
+#contact {
+	background: #ffffff;
 }
+
+#about {
+	background: #ffffff;
+}
+
+.about-section {
+	padding-top: 100px;
+}
+
+.work-section {
+	padding-top: 100px;
+	text-align: center;
+}
+
+.portfolio {
+	padding: 5px;
+	text-align: center;
+}
+
