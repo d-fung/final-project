@@ -23,16 +23,16 @@ body {
 }
 
 .navbar-nav {
-	padding-top: 50px;
+	padding-top: 40px;
 	float: right;
 }
 
-.navbar-collapse {
-	padding-bottom: 25px;
+.navbar-nav>li>a {
+	padding-bottom: 30px;
 }
 
 .navbar-brand {
-	padding-top: 50px;
+	padding-top: 40px;
 }
 
 .navbar-default {
@@ -48,7 +48,7 @@ body {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-	background-color: #fef561;
+	background-color: #ffffff;
 	text-decoration: underline;
 }
 
@@ -83,11 +83,11 @@ body {
 }
 
 .about-section {
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .work-section {
-	padding-top: 100px;
+	padding-top: 50px;
 	text-align: center;
 }
 
