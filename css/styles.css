@@ -2,6 +2,7 @@ body {
 	font-family: 'PT Serif', serif;
 	font-size: 10pt;
 	line-height: 1.6em;
+	position: relative;
 }
 
 .title-text {
@@ -59,23 +60,15 @@ body {
 	letter-spacing: 0.2em;
 }
 
-.introduction {
-	padding-top: 50px;
-}
-
 .intro-section {
 	padding-top: 50px;
 }
 
 .carousel {
-	height: 500px;
+	height: 600px;
 	width: 100%;
   	overflow: hidden;
   	position: relative;
-}
-
-#contact {
-	background: #ffffff;
 }
 
 #about {
@@ -83,11 +76,11 @@ body {
 }
 
 .about-section {
-	padding-top: 50px;
+	padding-top: 15px;
+	position: relative;
 }
 
 .work-section {
-	padding-top: 50px;
 	text-align: center;
 }
 
@@ -96,3 +89,6 @@ body {
 	text-align: center;
 }
 
+#contact {
+	background: #ffffff;
+}
