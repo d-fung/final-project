@@ -33,7 +33,7 @@ body {
 }
 
 .navbar-brand {
-	padding-top: 40px;
+	padding-top: 20px;
 }
 
 .navbar-default {
@@ -91,4 +91,21 @@ body {
 
 #contact {
 	background: #ffffff;
+}
+
+#footer {
+	padding-bottom: 50px;
+}
+
+.footer-text {
+	font-family: Dosis, sans-serif;
+	font-size: 8pt;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+
+.socialmedia {
+	background-color: #000000;
+
 }
