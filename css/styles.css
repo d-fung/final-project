@@ -5,6 +5,11 @@ body {
 	position: relative;
 }
 
+.logo {
+	width: 75px;
+	height: 75px;
+}
+
 .title-text {
 	font-family: Dosis, sans-serif;
 	font-weight: 200;
@@ -12,6 +17,26 @@ body {
 	letter-spacing: 0.5em;
 	text-transform: uppercase;
 	color: #000000;
+}
+
+.subhead {
+	font-family: Dosis, sans-serif;
+	font-weight: 400;
+	font-size: 16pt;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.profilepic {
+	border-radius: 50%;
+	width:250px;
+	height: 250px;
+	float: left;
+}
+
+.aboutmecopy {
+	text-align: left;
 }
 
 .services-text {
@@ -76,12 +101,13 @@ body {
 }
 
 .about-section {
-	padding-top: 15px;
+	padding-top: 80px;
 	position: relative;
 }
 
 .work-section {
 	text-align: center;
+	padding-bottom: 60px;
 }
 
 .portfolio {
@@ -93,19 +119,21 @@ body {
 	background: #ffffff;
 }
 
-#footer {
-	padding-bottom: 50px;
-}
-
 .footer-text {
 	font-family: Dosis, sans-serif;
-	font-size: 8pt;
+	font-size: 7pt;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	text-align: center;
+	color: #ffffff;
+}
+
+.instagram {
+	padding-bottom: 30px;
 }
 
 .socialmedia {
 	background-color: #000000;
+	padding: 20px;
 
 }
