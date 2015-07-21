@@ -23,8 +23,9 @@ body {
 	font-family: Dosis, sans-serif;
 	font-weight: 400;
 	font-size: 16pt;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	line-height: 1.3em;
+	text-transform: none;
 	color: #000000;
 }
 
@@ -37,15 +38,6 @@ body {
 
 .aboutmecopy {
 	text-align: left;
-}
-
-.services-text {
-	font-family: Dosis, sans-serif;
-	font-weight: 200;
-	font-size: 13pt;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-	color: #000000;
 }
 
 .navbar-nav {
@@ -101,13 +93,11 @@ body {
 }
 
 .about-section {
-	padding-top: 80px;
 	position: relative;
 }
 
 .work-section {
 	text-align: center;
-	padding-bottom: 60px;
 }
 
 .portfolio {
@@ -115,8 +105,32 @@ body {
 	text-align: center;
 }
 
-#contact {
-	background: #ffffff;
+.services-text {
+	font-family: Dosis, sans-serif;
+	font-weight: 200;
+	font-size: 13pt;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
+	text-align: center;
+}
+
+.services-list {
+	font-family: 'PT Serif', serif;
+	font-size: 10pt;
+	line-height: 2em;
+	position: relative;
+}
+
+
+.contact-text {
+	font-family: Dosis, sans-serif;
+	font-weight: 200;
+	font-size: 20pt;
+	letter-spacing: 0.5em;
+	text-transform: uppercase;
+	color: #000000;
+	text-align: left;
 }
 
 .footer-text {
@@ -128,6 +142,10 @@ body {
 	color: #ffffff;
 }
 
+#footer {
+	padding-top: 100px;
+}
+
 .instagram {
 	padding-bottom: 30px;
 }
@@ -135,5 +153,4 @@ body {
 .socialmedia {
 	background-color: #000000;
 	padding: 20px;
-
 }
