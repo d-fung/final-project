@@ -5,11 +5,6 @@ body {
 	position: relative;
 }
 
-.logo {
-	width: 75px;
-	height: 75px;
-}
-
 .title-text {
 	font-family: Dosis, sans-serif;
 	font-weight: 200;
@@ -82,7 +77,7 @@ body {
 }
 
 .carousel {
-	height: 600px;
+	height: 100%;
 	width: 100%;
   	overflow: hidden;
   	position: relative;
@@ -105,6 +100,69 @@ body {
 	text-align: center;
 }
 
+.modal {
+	background-color: #fff;
+	text-align: center;
+	padding-top: 100px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-title {
+	font-family: Dosis, sans-serif;
+	font-weight: 200;
+	font-size: 24pt;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.modal-subhead {
+	font-family: 'PT Serif', serif;
+	font-size: 13pt;
+	letter-spacing: 0em;
+	text-transform: none;
+	color: #999999;
+}
+
+.modal-images {
+	margin-left: auto;
+    margin-right: auto;
+	padding: 30px;
+}
+
+.modal-project-desc {
+	margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.close {
+    margin-right: 10px;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+    font-size: 8pt;
+    font-family: Dosis, sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.thumb-description {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+	opacity:0.9;
+    padding: 10px;
+    bottom: 0px;
+    color: #000;
+    font-size: 8pt;
+    font-family: dosis, sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
 .services-text {
 	font-family: Dosis, sans-serif;
 	font-weight: 200;
@@ -114,11 +172,12 @@ body {
 	color: #000000;
 }
 
-.services-list {
-	font-family: 'PT Serif', serif;
-	font-size: 10pt;
-	line-height: 2em;
-	position: relative;
+.services-copy {
+	text-align: justify;
+}
+
+.services-block {
+	padding: 40px;
 }
 
 
@@ -142,14 +201,23 @@ body {
 }
 
 #footer {
-	padding-top: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .instagram {
-	padding-bottom: 30px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 .socialmedia {
 	background-color: #000000;
 	padding: 20px;
+}
+
+.yellowstripes {
+  top: -33px;
+  position: relative;
+  height: 16px;
+  width: 80px;
 }
