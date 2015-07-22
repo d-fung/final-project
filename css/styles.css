@@ -31,8 +31,8 @@ body {
 
 .profilepic {
 	border-radius: 50%;
-	width:250px;
-	height: 250px;
+	width:260px;
+	height: 260px;
 	float: left;
 }
 
@@ -112,7 +112,6 @@ body {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	color: #000000;
-	text-align: center;
 }
 
 .services-list {
